@@ -19,9 +19,9 @@ class SignIn extends React.Component{
     }
 
     handleSubmit = e => {
-        e.preventDefault();
+        e.preventDefault()
 
-        this.state({ email: '', password: ''})
+        this.state = ({ email: '', password: ''})
     }
 
     handleChange = e => {
